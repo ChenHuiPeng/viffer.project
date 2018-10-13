@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html"; charset="GBK"/>
+  <title>HTML5布局</title>
+  <style type="text/css">
+    header{
+    	background:#0088bb;
+    	border:2px solid black;
+    	text-align:center;
+    	padding-bottom:2px;
+    }
+    footer{
+    	background:#cacaee;
+    	padding:2px;
+    	border:2px solid black;
+    	text-align:center;
+    	clear:both;
+    }
+    section{
+    	float:center;
+    	background:white;
+    	padding:5px;
+    	border:5px solid #666;
+    }
+    header,section,footer,aside,nav,article{
+    	display:block;
+    }
+    .leftSide{
+       float:left;
+       width:200px;
+       height:324px;
+       background:#eadcae;
+       padding-bottom:2px;
+       border:1px solid black;
+    }
+    .rightSide{
+    	float:right;
+    	width:205px;
+    	height:324px;
+    	border:2px solid black;
+    }
+    .poemName{
+    	font-size:25px;
+    	font-weight:bold;
+    	text-align:center;
+    	line-height:5px;
+    }
+    .poem{
+    	font-size:15px;
+    	font-weight:500;
+    	line-height:22px;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>学习HTML 5</h1>
+</header>
+<aside class="leftSide">
+  <nav>
+    <ul>
+      <li><a href="#">第一个链接</a></li>
+      <li><a href="#">第二个链接</a></li>
+      <li><a href="#">第三个链接</a></li>
+      <li><a href="#">第四个链接</a></li>
+    </ul>
+  </nav>
+</aside>
+<aside class="rightSide">
+  <img src="photo1.jpg" alt="美文图片" height="320" width="200"/>
+</aside>
+<section>
+<header>
+  个人博客--美文推荐
+</header>
+<article>
+  <p class="poemName">走心的空白    ——夏嬣漪</p>
+  <div class="poem">
+&nbsp;&nbsp;轻巧的走过羞涩的年华数不清的春夏秋冬，而我，却还是如此的黯淡无光，洗濯我所有的情绪，把全部的自己用来追溯，或是忏悔。<br>
+&nbsp;&nbsp;每一天过得迷茫而又忙碌的生活，不晓得谁是谁的谁。失恋了一次，失败了一次又一次，回忆了一遍又一遍，经历了一次又一次的创伤，习惯了一次又一次的接受，手机里没有了关于这些美好的一切，一直一直隐身在线，没有兴趣参加一切的聚会，只是呆呆的望着电脑，无望地看着这些剧，然后上课，其他的都不想动了，越来越懒惰，懒惰的不愿意去接受那些已经发生的事实。<br>
+&nbsp;&nbsp;是淡漠了我的青春？<br>
+&nbsp;&nbsp;谁祭奠了那份死去已久的心？<br>
+&nbsp;&nbsp;那年夏天的光影，短暂的只有一首歌曲的时间，生活的紧迫感，随时充斥着我们的心灵，一天如一天的浑水摸鱼般的浑噩度过，细水缓缓地深流。岁月不断地蹉跎着，只是脸上的斑点日益增多，还有写不完的歌曲，梦不完的记忆，回不到的过去。<br>
+</div>
+</article>
+<footer>
+  浏览网站：http://www.lookmw.cn/yc/109272.html  走心的空白--夏嬣漪   <br>
+</footer>
+</section>
+<footer>
+  这是按照教材中HTML5的文档结构初步编写，纯属练习。
+</footer>
+</body>
+</html>
